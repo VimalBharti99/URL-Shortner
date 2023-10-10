@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <h1>URL Shortner</h1>
+        <form>
+            <label for="long-url">Enter or Paste Your long URL:</label>
+            <input type="text" id="long-url" name="long-url">
+            <button type="button" id="shorten-btn">Shorten</button>
+        </form>
+        <div id="short-url-container" style="display:none">
+        <p>Here's your shortened URL:</p>
+          <div id="short-url">
+              <a href="" target="_blank"></a>
+              <button type="button" id="copy-btn">Copy</button>
+         </div>
+        </div>
+       <div class="credit">Made by <a href="https://www.linkedin.com/in/vimal-bharti-b21573254/">Vimal Bharti</a></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
